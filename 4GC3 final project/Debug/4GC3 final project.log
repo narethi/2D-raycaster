@@ -1,0 +1,57 @@
+﻿Build started 2015-05-09 10:29:47 AM.
+     1>Project "C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\4GC3 final project\4GC3 final project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\OpenAL\include" /I"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\FreeGlut\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Level.cpp openALfunctions.cpp
+         openALfunctions.cpp
+         Level.cpp
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\character.h(36): warning C4244: 'initializing' : conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\character.h(38): warning C4244: 'initializing' : conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(114): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(116): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(118): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(120): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(250): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(256): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(258): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(260): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(262): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(356): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(360): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(362): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(363): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(388): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(420): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(527): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(565): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(747): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(778): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(786): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\point2d.h(512): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\point2d.h(512) : while compiling class template member function 'Point2D<float> Point2D<float>::_performRotation(double)'
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\point2d.h(473) : see reference to function template instantiation 'Point2D<float> Point2D<float>::_performRotation(double)' being compiled
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\point2d.h(514) : while compiling class template member function 'Point2D<float> Point2D<float>::_performScalarMultiplication(pointType)'
+                 with
+                 [
+                     pointType=float
+                 ]
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\point2d.h(207) : see reference to function template instantiation 'Point2D<float> Point2D<float>::_performScalarMultiplication(pointType)' being compiled
+                 with
+                 [
+                     pointType=float
+                 ]
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.h(52) : see reference to class template instantiation 'Point2D<float>' being compiled
+         Generating Code...
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\level.cpp(278): warning C4715: 'level::_aliasTexture' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\Debug\4GC3 final project.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\OpenAL\libs\Win32" /LIBPATH:"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\FreeGlut\libs\Debug" OpenAL32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\Debug\4GC3 final project.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\Debug\4GC3 final project.lib" /MACHINE:X86 Debug\character.obj
+         Debug\Level.obj
+         Debug\light.obj
+         Debug\openALfunctions.obj
+         Debug\Ray.obj
+         Debug\Source.obj
+         4GC3 final project.vcxproj -> C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\Debug\4GC3 final project.exe
+     1>Done Building Project "C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\4GC3 final project\4GC3 final project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.50

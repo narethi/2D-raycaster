@@ -1,0 +1,7 @@
+#ifndef EXCEPTION_MACROS_H
+#define EXCEPTION_MACROS_H
+
+#define NO_ERRORS		0x00000000
+#define DIVIDE_BY_ZERO	0x00000001
+
+#endif

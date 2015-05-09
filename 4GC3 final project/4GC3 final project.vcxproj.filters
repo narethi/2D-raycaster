@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\World Headers">
+      <UniqueIdentifier>{7ab12f60-e8d1-4c5f-a189-0975b04e5170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Template Classes">
+      <UniqueIdentifier>{0006a25e-65bb-43e7-a0b0-e7bf996c6fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\World Files">
+      <UniqueIdentifier>{ca01c244-12a8-445a-bae2-917d2941941d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character Classes">
+      <UniqueIdentifier>{24ea991b-e958-4282-baf9-5b17587dbafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Character Classes">
+      <UniqueIdentifier>{0184b91f-a573-4f57-9e31-b68256ca6157}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Resource Files\World Files</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>Resource Files\Character Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openALfunctions.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\World Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Point2D.h">
+      <Filter>Header Files\Template Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="typeDefinitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptionMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Point3D.h">
+      <Filter>Header Files\Template Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>Header Files\Character Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="mathMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

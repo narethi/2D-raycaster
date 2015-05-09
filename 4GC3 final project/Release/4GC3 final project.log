@@ -1,0 +1,222 @@
+﻿Build started 2015-05-09 10:42:18 AM.
+     1>Project "C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\4GC3 final project\4GC3 final project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\OpenAL\include" /I"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\FreeGlut\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt character.cpp Level.cpp light.cpp openALfunctions.cpp Source.cpp
+         character.cpp
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\character.h(36): warning C4244: 'initializing' : conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\character.h(38): warning C4244: 'initializing' : conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>character.cpp(90): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>character.cpp(91): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>character.cpp(92): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>character.cpp(93): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>character.cpp(105): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>character.cpp(106): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>character.cpp(116): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>character.cpp(117): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>character.cpp(127): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>character.cpp(128): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>character.cpp(129): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>character.cpp(130): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>character.cpp(140): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>character.cpp(141): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>character.cpp(142): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>character.cpp(143): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>character.cpp(150): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>character.cpp(151): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>character.cpp(152): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>character.cpp(153): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>character.cpp(97): warning C4101: 'intersectY' : unreferenced local variable
+     1>character.cpp(97): warning C4101: 'intersectX' : unreferenced local variable
+     1>character.cpp(220): warning C4244: '=' : conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>character.cpp(222): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>character.cpp(279): warning C4244: '=' : conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>character.cpp(281): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>character.cpp(384): warning C4244: '=' : conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(88): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(87) : while compiling class template member function 'Point2D<int> Point2D<int>::operator =(float2D)'
+                 character.cpp(175) : see reference to function template instantiation 'Point2D<int> Point2D<int>::operator =(float2D)' being compiled
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\character.h(22) : see reference to class template instantiation 'Point2D<int>' being compiled
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(89): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(128): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(128) : while compiling class template member function 'Point2D<int> Point2D<int>::operator +(float2D)'
+                 character.cpp(365) : see reference to function template instantiation 'Point2D<int> Point2D<int>::operator +(float2D)' being compiled
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(512): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(512) : while compiling class template member function 'Point2D<float> Point2D<float>::_performRotation(double)'
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(477) : see reference to function template instantiation 'Point2D<float> Point2D<float>::_performRotation(double)' being compiled
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(514) : while compiling class template member function 'Point2D<float> Point2D<float>::_performScalarMultiplication(pointType)'
+                 with
+                 [
+                     pointType=float
+                 ]
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(207) : see reference to function template instantiation 'Point2D<float> Point2D<float>::_performScalarMultiplication(pointType)' being compiled
+                 with
+                 [
+                     pointType=float
+                 ]
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\character.h(14) : see reference to class template instantiation 'Point2D<float>' being compiled
+         Level.cpp
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\character.h(36): warning C4244: 'initializing' : conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\character.h(38): warning C4244: 'initializing' : conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>Level.cpp(114): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Level.cpp(116): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Level.cpp(118): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Level.cpp(120): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Level.cpp(250): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Level.cpp(256): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Level.cpp(258): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Level.cpp(260): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Level.cpp(262): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Level.cpp(356): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Level.cpp(360): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Level.cpp(362): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Level.cpp(363): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Level.cpp(388): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Level.cpp(420): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Level.cpp(527): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Level.cpp(565): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Level.cpp(747): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Level.cpp(778): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Level.cpp(786): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(512): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(512) : while compiling class template member function 'Point2D<float> Point2D<float>::_performRotation(double)'
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(473) : see reference to function template instantiation 'Point2D<float> Point2D<float>::_performRotation(double)' being compiled
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(514) : while compiling class template member function 'Point2D<float> Point2D<float>::_performScalarMultiplication(pointType)'
+                 with
+                 [
+                     pointType=float
+                 ]
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(207) : see reference to function template instantiation 'Point2D<float> Point2D<float>::_performScalarMultiplication(pointType)' being compiled
+                 with
+                 [
+                     pointType=float
+                 ]
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Level.h(52) : see reference to class template instantiation 'Point2D<float>' being compiled
+         light.cpp
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\character.h(36): warning C4244: 'initializing' : conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\character.h(38): warning C4244: 'initializing' : conversion from 'ULONGLONG' to 'int', possible loss of data
+         openALfunctions.cpp
+         Source.cpp
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\character.h(36): warning C4244: 'initializing' : conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\character.h(38): warning C4244: 'initializing' : conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>Source.cpp(58): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(60): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(105): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\OpenAL\include" /I"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\FreeGlut\include" /I"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\OpenAL\include" /I"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\FreeGlut\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ray.cpp
+         Ray.cpp
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\character.h(36): warning C4244: 'initializing' : conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\character.h(38): warning C4244: 'initializing' : conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>Ray.cpp(46): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Ray.cpp(48): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Ray.cpp(42): warning C4101: 'temp' : unreferenced local variable
+     1>Ray.cpp(60): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Ray.cpp(62): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Ray.cpp(126): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(127): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(130): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(131): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(134): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(137): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(140): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(143): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(152): warning C4244: '-=' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(155): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(157): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(161): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(164): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(166): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(168): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(170): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(179): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(181): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(184): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(187): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(189): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(191): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(193): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(202): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(204): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(207): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(209): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(212): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(215): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(217): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(219): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(221): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(227): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(230): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(232): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(234): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(236): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(246): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(247): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(249): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(253): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(254): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(257): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(258): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(261): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(263): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(265): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(267): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(276): warning C4244: '-=' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(279): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(281): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(284): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(287): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(289): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(291): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(293): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(302): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(304): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(307): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(310): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(312): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(314): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(316): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(325): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(327): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(330): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(332): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(335): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(338): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(340): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(342): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(344): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(350): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(353): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(355): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(357): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(359): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(369): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Ray.cpp(370): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(372): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Ray.cpp(410): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(512): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(512) : while compiling class template member function 'Point2D<float> Point2D<float>::_performRotation(double)'
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(477) : see reference to function template instantiation 'Point2D<float> Point2D<float>::_performRotation(double)' being compiled
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(514) : while compiling class template member function 'Point2D<float> Point2D<float>::_performScalarMultiplication(pointType)'
+                 with
+                 [
+                     pointType=float
+                 ]
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Point2D.h(207) : see reference to function template instantiation 'Point2D<float> Point2D<float>::_performScalarMultiplication(pointType)' being compiled
+                 with
+                 [
+                     pointType=float
+                 ]
+                 c:\users\benjamin\documents\visual studio 2013\projects\4gc3 final project\4gc3 final project\Ray.h(24) : see reference to class template instantiation 'Point2D<float>' being compiled
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\Release\4GC3 final project.exe" /NOLOGO /LIBPATH:"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\OpenAL\libs\Win32" /LIBPATH:"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\FreeGlut\libs\x86" OpenAL32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\Release\4GC3 final project.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\Release\4GC3 final project.lib" /MACHINE:X86 /SAFESEH Release\character.obj
+         Release\Level.obj
+         Release\light.obj
+         Release\openALfunctions.obj
+         Release\Ray.obj
+         Release\Source.obj
+         Generating code
+         Finished generating code
+         4GC3 final project.vcxproj -> C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\Release\4GC3 final project.exe
+     1>Done Building Project "C:\Users\Benjamin\Documents\Visual Studio 2013\Projects\4GC3 final project\4GC3 final project\4GC3 final project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.25
